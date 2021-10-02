@@ -3,3 +3,55 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.cta {
+    background-color: #3882F6;
+}
+
+header, .hero-content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hero-container {
+    padding: 2rem 0 4rem 0;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link > a {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-link:first-of-type {
+    margin-right: auto;
+}
+
+.nav-link:first-of-type > a {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.primary {
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.secondary {
+    background-color: #E5E7EB;
+}
